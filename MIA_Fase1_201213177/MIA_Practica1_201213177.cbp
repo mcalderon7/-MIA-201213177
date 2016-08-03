@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="MIA_Practica1_201213177" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/MIA_Practica1_201213177" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/MIA_Practica1_201213177" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="agregarParticion.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="agregarParticion.h" />
+		<Unit filename="analizar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="analizar.h" />
+		<Unit filename="borrarParticion.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="borrarParticion.h" />
+		<Unit filename="busquedaCarpeta.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="busquedaCarpeta.h" />
+		<Unit filename="creacionDiscos.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="creacionDiscos.h" />
+		<Unit filename="crearArchivo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="crearArchivo.h" />
+		<Unit filename="crearCarpetaArchivo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="crearCarpetaArchivo.h" />
+		<Unit filename="crearParticion.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="crearParticion.h" />
+		<Unit filename="crearParticionExtendida.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="crearParticionExtendida.h" />
+		<Unit filename="crearParticionLogica.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="crearParticionLogica.h" />
+		<Unit filename="crearParticionPrimaria.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="crearParticionPrimaria.h" />
+		<Unit filename="ejecutarScript.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ejecutarScript.h" />
+		<Unit filename="escanearCrearCarpetaArchivo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="escanearCrearCarpetaArchivo.h" />
+		<Unit filename="escanearCrearDisco.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="escanearCrearDisco.h" />
+		<Unit filename="escanearCrearParticion.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="escanearCrearParticion.h" />
+		<Unit filename="escanearDesmontarParticion.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="escanearDesmontarParticion.h" />
+		<Unit filename="escanearEjecutarScript.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="escanearEjecutarScript.h" />
+		<Unit filename="escanearFormatearParticion.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="escanearFormatearParticion.h" />
+		<Unit filename="escanearGraficarMBR.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="escanearGraficarMBR.h" />
+		<Unit filename="escanearMontarParticion.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="escanearMontarParticion.h" />
+		<Unit filename="escanearRemoverDisco.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="escanearRemoverDisco.h" />
+		<Unit filename="estructuras.h" />
+		<Unit filename="formatearParticion.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="formatearParticion.h" />
+		<Unit filename="getPathOnly.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="getPathOnly.h" />
+		<Unit filename="getRandom.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="getRandom.h" />
+		<Unit filename="graficarMBR.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="graficarMBR.h" />
+		<Unit filename="leecad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="leecad.h" />
+		<Unit filename="limpiar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="limpiar.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="montarParticion.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="montarParticion.h" />
+		<Unit filename="removeJumps.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="removeJumps.h" />
+		<Unit filename="removeSpaces.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="removeSpaces.h" />
+		<Unit filename="removerDisco.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="removerDisco.h" />
+		<Unit filename="vaciarArreglo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vaciarArreglo.h" />
+		<Unit filename="vaciarNumeros.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="vaciarNumeros.h" />
+		<Unit filename="verificarExistenciaParticion.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="verificarExistenciaParticion.h" />
+		<Unit filename="verificarPartExt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="verificarPartExt.h" />
+		<Unit filename="verificarPartLog.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="verificarPartLog.h" />
+		<Unit filename="verificarParticiones.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="verificarParticiones.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

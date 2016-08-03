@@ -1,0 +1,392 @@
+digraph mbr {
+ node [shape=plaintext]
+ b [
+      style=filled label=<
+           <TABLE BORDER="1" CELLBORDER="1" CELLSPACING="2">
+                 <TR>
+                     <TD COLSPAN="2" ROWSPAN="1"><FONT POINT-SIZE="16">MBR /home/marvin/Escritorio/archivos/primerapractica/D1.dsk</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">Nombre</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">Valor</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">mbr_tamaño</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">6144000</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">mbr_fecha_creacion</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">Wed Jun 22 07:31:39 2016
+</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">mbr_disk_signature</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">8</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_status_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">1</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_type_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">P</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_fit_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">F</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_start_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">136</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_size_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">1048576</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_name_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">PRI1</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_status_2</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">1</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_type_2</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">P</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_fit_2</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">B</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_start_2</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">1048712</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_size_2</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">5242880</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_name_2</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">PRI2</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_status_3</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">1</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_type_3</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">E</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_fit_3</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">W</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_start_3</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">6291592</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_size_3</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">41943040</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_name_3</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">EXT</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_status_4</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">1</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_type_4</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">P</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_fit_4</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">W</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_start_4</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">48234632</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_size_4</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">5242880</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_name_4</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">PRI3</FONT></TD>
+                 </TR>
+
+
+
+
+
+
+
+
+
+           </TABLE>>  
+   ]
+ LOG1 [
+      style=filled label=<
+           <TABLE BORDER="1" CELLBORDER="1" CELLSPACING="2">
+                 <TR>
+                     <TD COLSPAN="2" ROWSPAN="1"><FONT POINT-SIZE="16">EBR(LOG1)</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">Nombre</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">Valor</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_status_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">A</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_fit_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">W</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_start_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">32</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_size_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">5242880</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_next_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">5242912</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_name_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">LOG1</FONT></TD>
+                 </TR>
+           </TABLE>>  
+   ]
+ LOG2 [
+      style=filled label=<
+           <TABLE BORDER="1" CELLBORDER="1" CELLSPACING="2">
+                 <TR>
+                     <TD COLSPAN="2" ROWSPAN="1"><FONT POINT-SIZE="16">EBR(LOG2)</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">Nombre</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">Valor</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_status_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">A</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_fit_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">W</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_start_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">5242944</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_size_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">5242880</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_next_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">10485824</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_name_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">LOG2</FONT></TD>
+                 </TR>
+           </TABLE>>  
+   ]
+
+ LOG3 [
+      style=filled label=<
+           <TABLE BORDER="1" CELLBORDER="1" CELLSPACING="2">
+                 <TR>
+                     <TD COLSPAN="2" ROWSPAN="1"><FONT POINT-SIZE="16">EBR(LOG3)</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">Nombre</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">Valor</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_status_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">A</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_fit_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">W</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_start_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">10485856</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_size_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">5242880</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_next_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">15728736</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_name_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">LOG3</FONT></TD>
+                 </TR>
+           </TABLE>>  
+   ]
+
+ LOG4 [
+      style=filled label=<
+           <TABLE BORDER="1" CELLBORDER="1" CELLSPACING="2">
+                 <TR>
+                     <TD COLSPAN="2" ROWSPAN="1"><FONT POINT-SIZE="16">EBR(LOG4)</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">Nombre</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">Valor</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_status_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">A</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_fit_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">W</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_start_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">15728768</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_size_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">5242880</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_next_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">20971648</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_name_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">LOG4</FONT></TD>
+                 </TR>
+           </TABLE>>  
+   ]
+
+ LOG5 [
+      style=filled label=<
+           <TABLE BORDER="1" CELLBORDER="1" CELLSPACING="2">
+                 <TR>
+                     <TD COLSPAN="2" ROWSPAN="1"><FONT POINT-SIZE="16">EBR(LOG5)</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">Nombre</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">Valor</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_status_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">A</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_fit_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">W</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_start_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">20971680</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_size_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">5242880</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_next_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">26214560</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_name_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">LOG5</FONT></TD>
+                 </TR>
+           </TABLE>>  
+   ]
+
+ LOG6 [
+      style=filled label=<
+           <TABLE BORDER="1" CELLBORDER="1" CELLSPACING="2">
+                 <TR>
+                     <TD COLSPAN="2" ROWSPAN="1"><FONT POINT-SIZE="16">EBR(LOG6)</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">Nombre</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">Valor</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_status_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">A</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_fit_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">W</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_start_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">26214592</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_size_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">5242880</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_next_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">31457472</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_name_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">LOG6</FONT></TD>
+                 </TR>
+           </TABLE>>  
+   ]
+
+ LOG7 [
+      style=filled label=<
+           <TABLE BORDER="1" CELLBORDER="1" CELLSPACING="2">
+                 <TR>
+                     <TD COLSPAN="2" ROWSPAN="1"><FONT POINT-SIZE="16">EBR(LOG7)</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">Nombre</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">Valor</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_status_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">A</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_fit_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">W</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_start_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">31457504</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_size_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">5242880</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_next_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">36700384</FONT></TD>
+                 </TR>
+                 <TR>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">part_name_1</FONT></TD>
+                     <TD COLSPAN="1" ROWSPAN="1"><FONT POINT-SIZE="16">LOG7</FONT></TD>
+                 </TR>
+           </TABLE>>  
+   ]
+
+}
+
