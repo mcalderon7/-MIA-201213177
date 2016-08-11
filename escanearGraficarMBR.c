@@ -7,6 +7,7 @@
 #include "limpiar.h"
 #include "graficarMBR.h"
 #include "vaciarArreglo.h"
+#include "montarParticion.h"
 
 int cnx = 0;
 
@@ -71,10 +72,21 @@ void escanearGraficarMBR(char * ingreso){
                         cnx = 0;
 
                         if((strcmp(name, "mbr") == 0) || (strcmp(name, "disk") == 0)){
-                            //graficarMBR(path, id);
-                            printf("********************************************************************\n");
-                            printf("TODOS LOS DATOS EXITOSOS.\n");
-                            printf("********************************************************************\n");
+
+                            xnode **z = NULL;
+
+                            /*Busco en la lista si ya existe alguna particion montada con ese nombre*/
+                            z = xx_list_search(&m, id);
+
+                            if(z == NULL){
+                                printf("***************************************************************************\n");
+                                printf("No se puede generar el reporte porque la particion no se encuentra montada.\n");
+                                printf("***************************************************************************\n");
+                            }else{
+                                //printf("El path es el siguiente: %s", (*z)->path);
+                                graficarMBR((*z)->path, path);
+                            }
+
                         }else{
                             printf("********************************************************************\n");
                             printf("No se puede realizar el reporte indicado.\n");

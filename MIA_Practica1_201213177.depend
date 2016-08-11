@@ -657,7 +657,7 @@
 
 1466728548 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/formatearParticion.h
 
-1470811174 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/escanearGraficarMBR.c
+1470932226 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/escanearGraficarMBR.c
 	<stdio.h>
 	<stdlib.h>
 	<ctype.h>
@@ -667,6 +667,7 @@
 	"limpiar.h"
 	"graficarMBR.h"
 	"vaciarArreglo.h"
+	"montarParticion.h"
 
 1470808919 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/graficarMBR.h
 
@@ -717,7 +718,7 @@
 	<time.h>
 	"getRandom.h"
 
-1470810616 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/graficarMBR.c
+1470932624 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/graficarMBR.c
 	<stdio.h>
 	<stdlib.h>
 	<ctype.h>
