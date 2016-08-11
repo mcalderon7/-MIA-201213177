@@ -1,0 +1,799 @@
+# depslib dependency file v1.0
+1466878522 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/analizar.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"analizar.h"
+	"removeSpaces.h"
+	"limpiar.h"
+	"vaciarArreglo.h"
+	"escanearCrearDisco.h"
+	"escanearRemoverDisco.h"
+	"escanearCrearParticion.h"
+	"escanearMontarParticion.h"
+	"escanearDesmontarParticion.h"
+	"escanearGraficarMBR.h"
+	"escanearEjecutarScript.h"
+	"escanearFormatearParticion.h"
+	"escanearCrearCarpetaArchivo.h"
+
+1465525127 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/analizar.h
+
+1465429321 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/removeSpaces.h
+
+1465428459 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/limpiar.h
+
+1465429459 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/vaciarArreglo.h
+
+1465429675 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/escanearCrearDisco.h
+
+1465430096 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/escanearRemoverDisco.h
+
+1465430496 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/escanearCrearParticion.h
+
+1465432179 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/escanearMontarParticion.h
+
+1465432256 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/escanearDesmontarParticion.h
+
+1466598709 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/creacionDiscos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<math.h>
+	<unistd.h>
+	<time.h>
+	"creacionDiscos.h"
+	"limpiar.h"
+	"getPathOnly.h"
+	"getRandom.h"
+
+1465428201 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/creacionDiscos.h
+
+1465428692 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/getPathOnly.h
+
+1465428884 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/getRandom.h
+
+1465784044 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/crearParticion.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"crearParticion.h"
+	"crearParticionPrimaria.h"
+	"crearParticionLogica.h"
+	"crearParticionExtendida.h"
+	"verificarParticiones.h"
+	"verificarPartExt.h"
+	"verificarPartLog.h"
+	"agregarParticion.h"
+	"borrarParticion.h"
+
+1465430744 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/crearParticion.h
+
+1465430843 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/crearParticionPrimaria.h
+
+1465431712 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/crearParticionLogica.h
+
+1465431851 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/crearParticionExtendida.h
+
+1466054236 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/crearParticionExtendida.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"crearParticionExtendida.h"
+
+1466562222 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/crearParticionLogica.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"crearParticionLogica.h"
+
+1466726387 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/crearParticionPrimaria.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"crearParticionPrimaria.h"
+
+1466598663 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/escanearCrearDisco.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"escanearCrearDisco.h"
+	"limpiar.h"
+	"removeSpaces.h"
+	"vaciarArreglo.h"
+	"creacionDiscos.h"
+	"vaciarNumeros.h"
+
+1465429336 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/vaciarNumeros.h
+
+1465752395 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/escanearCrearParticion.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"escanearCrearParticion.h"
+	"removeSpaces.h"
+	"limpiar.h"
+	"vaciarArreglo.h"
+	"crearParticion.h"
+
+1465432274 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/escanearDesmontarParticion.c
+	"escanearDesmontarParticion.h"
+
+1466562492 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/escanearMontarParticion.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"escanearMontarParticion.h"
+	"removeSpaces.h"
+	"limpiar.h"
+	"vaciarArreglo.h"
+	"montarParticion.h"
+	"verificarExistenciaParticion.h"
+
+1465595641 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/escanearRemoverDisco.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	"escanearRemoverDisco.h"
+	"removeSpaces.h"
+	"limpiar.h"
+	"removerDisco.h"
+	"vaciarArreglo.h"
+
+1465430236 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/removerDisco.h
+
+1465428772 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/getPathOnly.c
+	<string.h>
+	"getPathOnly.h"
+
+1465429008 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/getRandom.c
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	"getRandom.h"
+
+1465428730 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/limpiar.c
+	"limpiar.h"
+
+1466578279 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/main.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	"analizar.h"
+	"leecad.h"
+
+1465762916 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/removerDisco.c
+	<stdio.h>
+	"removerDisco.h"
+
+1466582307 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/removeSpaces.c
+	"removeSpaces.h"
+
+1465429508 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/vaciarArreglo.c
+	<string.h>
+	"vaciarArreglo.h"
+
+1465429219 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/vaciarNumeros.c
+	<string.h>
+	"vaciarNumeros.h"
+
+1465761637 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/verificarParticiones.h
+
+1465750594 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/verificarPartExt.h
+
+1465751831 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/verificarPartLog.h
+
+1466054286 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/verificarPartExt.c
+	<stdio.h>
+	<stdlib.h>
+	"verificarPartExt.h"
+	"verificarParticiones.h"
+
+1466054292 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/verificarParticiones.c
+	<stdio.h>
+	<stdlib.h>
+	"verificarParticiones.h"
+
+1466054298 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/verificarPartLog.c
+	<stdio.h>
+	<stdlib.h>
+	"verificarPartLog.h"
+
+1465783806 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/agregarParticion.c
+	"agregarParticion.h"
+
+1465783779 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/agregarParticion.h
+
+1465783793 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/borrarParticion.c
+	"borrarParticion.h"
+
+1465783759 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/borrarParticion.h
+
+1465784634 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/escanearGraficarMBR.h
+
+1465791825 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/escanearGraficarMBR.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"escanearGraficarMBR.h"
+	"removeSpaces.h"
+	"limpiar.h"
+	"graficarMBR.h"
+	"vaciarArreglo.h"
+
+1465791603 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/graficarMBR.h
+
+1466600677 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/graficarMBR.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<time.h>
+	"graficarMBR.h"
+
+1466055524 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/desmontarParticion.c
+
+1466733739 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/montarParticion.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	<time.h>
+	"montarParticion.h"
+	"limpiar.h"
+	"vaciarArreglo.h"
+
+1466733742 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/montarParticion.h
+
+1466377120 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/estructuraListaParticion.c
+
+1466377105 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/estructuraListasDisco.c
+
+1466379903 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/listaDiscosMontados.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"listaDiscosMontados.h"
+	"estructuraListasDisco.h"
+
+1466379356 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/listaDiscosMontados.h
+	"estructuraListasDisco.h"
+
+1466379325 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/estructuraListasDisco.h
+
+1466553147 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/verificarExistenciaParticion.h
+
+1466561806 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/verificarExistenciaParticion.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"verificarExistenciaParticion.h"
+
+1466564215 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/escanearEjecutarScript.h
+
+1466598902 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/ejecutarScript.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ejecutarScript.h"
+	"removeSpaces.h"
+	"removeJumps.h"
+	"limpiar.h"
+	"analizar.h"
+
+1466563314 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/ejecutarScript.h
+
+1466572046 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/escanearEjecutarScript.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"removeSpaces.h"
+	"limpiar.h"
+	"vaciarArreglo.h"
+	"escanearEjecutarScript.h"
+	"ejecutarScript.h"
+
+1466578228 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/leecad.h
+
+1466581566 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/leecad.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	"leecad.h"
+	"analizar.h"
+	"limpiar.h"
+
+1466582376 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/removeJumps.h
+
+1466582411 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/removeJumps.c
+	"removeJumps.h"
+
+1466645582 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/escanearFormatearParticion.h
+
+1466726065 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/escanearFormatearParticion.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"removeSpaces.h"
+	"limpiar.h"
+	"vaciarArreglo.h"
+	"escanearFormatearParticion.h"
+	"formatearParticion.h"
+	"montarParticion.h"
+
+1466728548 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/formatearParticion.h
+
+1467433912 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/formatearParticion.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	<time.h>
+	"formatearParticion.h"
+	"montarParticion.h"
+	"estructuras.h"
+	"limpiar.h"
+
+1467426834 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/estructuras.h
+	<time.h>
+
+1466877983 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/escanearCrearCarpetaArchivo.h
+
+1467427639 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/crearCarpetaArchivo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	<time.h>
+	"crearCarpetaArchivo.h"
+	"estructuras.h"
+	"montarParticion.h"
+	"limpiar.h"
+	"busquedaCarpeta.h"
+	"crearArchivo.h"
+
+1466878119 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/crearCarpetaArchivo.h
+
+1467082838 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/escanearCrearCarpetaArchivo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"removeSpaces.h"
+	"limpiar.h"
+	"vaciarArreglo.h"
+	"escanearCrearCarpetaArchivo.h"
+	"montarParticion.h"
+	"crearCarpetaArchivo.h"
+
+1467433653 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/busquedaCarpeta.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	<time.h>
+	"estructuras.h"
+	"busquedaCarpeta.h"
+	"limpiar.h"
+
+1467240970 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/busquedaCarpeta.h
+
+1467163242 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/creacionCarpeta.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	<time.h>
+	"estructuras.h"
+	"creacionCarpeta.h"
+	"limpiar.h"
+	"busquedaCarpeta.h"
+
+1467131220 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/creacionCarpeta.h
+
+1467435423 source:/home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/crearArchivo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	<math.h>
+	"crearArchivo.h"
+	"estructuras.h"
+	"busquedaCarpeta.h"
+	"limpiar.h"
+
+1467240387 /home/marvin/CodeBlocksProjects/MIA_Practica1_201213177/crearArchivo.h
+
+1465783806 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/agregarParticion.c
+	"agregarParticion.h"
+
+1465783779 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/agregarParticion.h
+
+1470754861 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/analizar.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"analizar.h"
+	"removeSpaces.h"
+	"limpiar.h"
+	"vaciarArreglo.h"
+	"escanearCrearDisco.h"
+	"escanearRemoverDisco.h"
+	"escanearCrearParticion.h"
+	"escanearMontarParticion.h"
+	"escanearDesmontarParticion.h"
+	"escanearGraficarMBR.h"
+	"escanearEjecutarScript.h"
+	"escanearFormatearParticion.h"
+	"escanearCrearCarpetaArchivo.h"
+
+1465525127 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/analizar.h
+
+1465429321 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/removeSpaces.h
+
+1465428459 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/limpiar.h
+
+1465429459 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/vaciarArreglo.h
+
+1465429675 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/escanearCrearDisco.h
+
+1465430096 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/escanearRemoverDisco.h
+
+1465430496 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/escanearCrearParticion.h
+
+1465432179 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/escanearMontarParticion.h
+
+1465432256 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/escanearDesmontarParticion.h
+
+1470808911 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/escanearGraficarMBR.h
+
+1466564215 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/escanearEjecutarScript.h
+
+1466645582 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/escanearFormatearParticion.h
+
+1466877983 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/escanearCrearCarpetaArchivo.h
+
+1465783793 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/borrarParticion.c
+	"borrarParticion.h"
+
+1465783759 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/borrarParticion.h
+
+1467433653 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/busquedaCarpeta.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	<time.h>
+	"estructuras.h"
+	"busquedaCarpeta.h"
+	"limpiar.h"
+
+1467426834 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/estructuras.h
+	<time.h>
+
+1467240970 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/busquedaCarpeta.h
+
+1466598709 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/creacionDiscos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	<math.h>
+	<unistd.h>
+	<time.h>
+	"creacionDiscos.h"
+	"limpiar.h"
+	"getPathOnly.h"
+	"getRandom.h"
+
+1465428201 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/creacionDiscos.h
+
+1465428692 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/getPathOnly.h
+
+1465428884 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/getRandom.h
+
+1467436165 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/crearArchivo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	<math.h>
+	"crearArchivo.h"
+	"estructuras.h"
+	"busquedaCarpeta.h"
+	"limpiar.h"
+
+1467240387 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/crearArchivo.h
+
+1467427639 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/crearCarpetaArchivo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	<time.h>
+	"crearCarpetaArchivo.h"
+	"estructuras.h"
+	"montarParticion.h"
+	"limpiar.h"
+	"busquedaCarpeta.h"
+	"crearArchivo.h"
+
+1466878119 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/crearCarpetaArchivo.h
+
+1466733742 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/montarParticion.h
+
+1465784044 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/crearParticion.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"crearParticion.h"
+	"crearParticionPrimaria.h"
+	"crearParticionLogica.h"
+	"crearParticionExtendida.h"
+	"verificarParticiones.h"
+	"verificarPartExt.h"
+	"verificarPartLog.h"
+	"agregarParticion.h"
+	"borrarParticion.h"
+
+1465430744 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/crearParticion.h
+
+1465430843 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/crearParticionPrimaria.h
+
+1465431712 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/crearParticionLogica.h
+
+1465431851 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/crearParticionExtendida.h
+
+1465761637 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/verificarParticiones.h
+
+1465750594 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/verificarPartExt.h
+
+1465751831 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/verificarPartLog.h
+
+1466054236 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/crearParticionExtendida.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"crearParticionExtendida.h"
+
+1466562222 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/crearParticionLogica.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"crearParticionLogica.h"
+
+1466726387 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/crearParticionPrimaria.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"crearParticionPrimaria.h"
+
+1466598902 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/ejecutarScript.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ejecutarScript.h"
+	"removeSpaces.h"
+	"removeJumps.h"
+	"limpiar.h"
+	"analizar.h"
+
+1466563314 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/ejecutarScript.h
+
+1466582376 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/removeJumps.h
+
+1470753972 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/escanearCrearCarpetaArchivo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"removeSpaces.h"
+	"limpiar.h"
+	"vaciarArreglo.h"
+	"escanearCrearCarpetaArchivo.h"
+	"montarParticion.h"
+	"crearCarpetaArchivo.h"
+
+1470622476 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/escanearCrearDisco.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"escanearCrearDisco.h"
+	"limpiar.h"
+	"removeSpaces.h"
+	"vaciarArreglo.h"
+	"creacionDiscos.h"
+	"vaciarNumeros.h"
+
+1465429336 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/vaciarNumeros.h
+
+1470804471 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/escanearCrearParticion.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"escanearCrearParticion.h"
+	"removeSpaces.h"
+	"limpiar.h"
+	"vaciarArreglo.h"
+	"crearParticion.h"
+
+1465432274 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/escanearDesmontarParticion.c
+	"escanearDesmontarParticion.h"
+
+1470754141 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/escanearEjecutarScript.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"removeSpaces.h"
+	"limpiar.h"
+	"vaciarArreglo.h"
+	"escanearEjecutarScript.h"
+	"ejecutarScript.h"
+
+1470754169 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/escanearFormatearParticion.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"removeSpaces.h"
+	"limpiar.h"
+	"vaciarArreglo.h"
+	"escanearFormatearParticion.h"
+	"formatearParticion.h"
+	"montarParticion.h"
+
+1466728548 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/formatearParticion.h
+
+1470811174 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/escanearGraficarMBR.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"escanearGraficarMBR.h"
+	"removeSpaces.h"
+	"limpiar.h"
+	"graficarMBR.h"
+	"vaciarArreglo.h"
+
+1470808919 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/graficarMBR.h
+
+1470805918 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/escanearMontarParticion.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"escanearMontarParticion.h"
+	"removeSpaces.h"
+	"limpiar.h"
+	"vaciarArreglo.h"
+	"montarParticion.h"
+	"verificarExistenciaParticion.h"
+
+1466553147 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/verificarExistenciaParticion.h
+
+1470754601 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/escanearRemoverDisco.c
+	<stdio.h>
+	<string.h>
+	<ctype.h>
+	"escanearRemoverDisco.h"
+	"removeSpaces.h"
+	"limpiar.h"
+	"removerDisco.h"
+	"vaciarArreglo.h"
+
+1465430236 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/removerDisco.h
+
+1470619927 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/formatearParticion.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	<time.h>
+	"formatearParticion.h"
+	"montarParticion.h"
+	"estructuras.h"
+	"limpiar.h"
+
+1465428772 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/getPathOnly.c
+	<string.h>
+	"getPathOnly.h"
+
+1465429008 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/getRandom.c
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	"getRandom.h"
+
+1470810616 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/graficarMBR.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<time.h>
+	"graficarMBR.h"
+	"limpiar.h"
+
+1466581566 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/leecad.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	"leecad.h"
+	"analizar.h"
+	"limpiar.h"
+
+1466578228 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/leecad.h
+
+1465428730 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/limpiar.c
+	"limpiar.h"
+
+1466578279 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/main.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	"analizar.h"
+	"leecad.h"
+
+1466733739 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/montarParticion.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	<time.h>
+	"montarParticion.h"
+	"limpiar.h"
+	"vaciarArreglo.h"
+
+1466582411 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/removeJumps.c
+	"removeJumps.h"
+
+1465762916 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/removerDisco.c
+	<stdio.h>
+	"removerDisco.h"
+
+1466582307 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/removeSpaces.c
+	"removeSpaces.h"
+
+1465429508 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/vaciarArreglo.c
+	<string.h>
+	"vaciarArreglo.h"
+
+1465429219 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/vaciarNumeros.c
+	<string.h>
+	"vaciarNumeros.h"
+
+1466561806 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/verificarExistenciaParticion.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"verificarExistenciaParticion.h"
+
+1466054286 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/verificarPartExt.c
+	<stdio.h>
+	<stdlib.h>
+	"verificarPartExt.h"
+	"verificarParticiones.h"
+
+1466054292 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/verificarParticiones.c
+	<stdio.h>
+	<stdlib.h>
+	"verificarParticiones.h"
+
+1466054298 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/verificarPartLog.c
+	<stdio.h>
+	<stdlib.h>
+	"verificarPartLog.h"
+
