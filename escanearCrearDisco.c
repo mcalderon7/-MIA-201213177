@@ -26,6 +26,9 @@ void escanearCrearDisco(char *ingreso){
     int size;
     char unit;
     char path[200];
+    limpiar(path, 200);
+    char name[100];
+    limpiar(name, 100);
 
     char auxlex[200];
     limpiar(auxlex, 200);
@@ -53,6 +56,9 @@ void escanearCrearDisco(char *ingreso){
                 }else if(c == '-'){
                     estado = 0;
                     break;
+                }else if(c == '+'){
+                    estado = 0;
+                    break;
                 }else if(c == '/'){
                     auxlex[cntx] = c;
                     cntx++;
@@ -67,6 +73,7 @@ void escanearCrearDisco(char *ingreso){
                         printf("%s %d %s", "Size: ", size, "\n");
                         printf("%s %c %s", "Unidad: ", unit, "\n");
                         printf("%s %s %s", "Path: ", path, "\n");
+                        printf("%s %s %s", "Name: ", name, "\n");
                         /*Ahora mando a crear el archivo con sus parametros especificos*/
                         cntx = 0;
                         cnty = 0;
@@ -84,7 +91,14 @@ void escanearCrearDisco(char *ingreso){
                             banderaErrores = 0;
                         }else{
                             printf("********************************************************************\n");
-                            crearDisco(size, unit, path);
+
+                            /*Hago una union del path con el name*/
+                            char pathCompleto[200];
+                            limpiar(pathCompleto, 200);
+                            strcpy(pathCompleto, path);
+                            strcat(pathCompleto, name);
+
+                            crearDisco(size, unit, pathCompleto);
                             printf("********************************************************************\n");
                         }
 
@@ -164,14 +178,29 @@ void escanearCrearDisco(char *ingreso){
                             estado = 1;
                             break;
                         }else{
-                            estado = 0;
+                            estado = 4;
                             vaciarArreglo(auxlex);
                             cntx = 0;
                             printf("encontro el path\n");
                             break;
                         }
 
+                    }else if(strcmp(auxlex, "name") == 0){
+
+                        if(ingreso[i+1] == ':'){
+                            estado = 1;
+                            break;
+                        }else{
+                            estado = 5;
+                            vaciarArreglo(auxlex);
+                            cntx = 0;
+                            printf("encontro el name\n");
+                            break;
+                        }
+
                     }
+
+
                 }else if(c == '/'){
                     estado = 0;
                     auxlex[cntx] = c;
@@ -194,6 +223,11 @@ void escanearCrearDisco(char *ingreso){
                     estado = 0;
                     i--;
                     break;
+                }else{
+                    printf("********************************************************************\n");
+                    printf("Error lexico con: %c\n", c);
+                    banderaErrores = 1;
+                    printf("********************************************************************\n");
                 }
 
              case 2:
@@ -220,6 +254,11 @@ void escanearCrearDisco(char *ingreso){
 						cnty = 0;
                         break;
                     }
+                }else{
+                    printf("********************************************************************\n");
+                    printf("Error lexico con: %c\n", c);
+                    banderaErrores = 1;
+                    printf("********************************************************************\n");
                 }
 
 
@@ -230,7 +269,7 @@ void escanearCrearDisco(char *ingreso){
                     numlex[cnty] = c;
                     cnty++;
                     break;
-                }else if(c == '-'){
+                }else if(c == '+'){
 
                     int j = 0;
                     for(j = 0; auxlex[j]; j++){
@@ -254,15 +293,92 @@ void escanearCrearDisco(char *ingreso){
                         estado = 0;
                         banderaErrores = 1;
                     }
-                }else if(c == '+'){
-                    /*Aqui ya tengo registrado el tamaño del que va a querer el disco*/
-                    size = atoi(numlex);
-                    estado = 0;
-                    vaciarArreglo(auxlex);
-                    cntx = 0;
-                    vaciarNumeros(numlex);
-                    cnty = 0;
+                }else{
+                    printf("********************************************************************\n");
+                    printf("Error lexico con: %c\n", c);
+                    banderaErrores = 1;
+                    printf("********************************************************************\n");
                 }
+
+
+
+            case 4:
+
+                if(c == '"'){
+                    estado = 4;
+                    auxlex[cntx] = c;
+                    cntx++;
+                    break;
+                }else if(c == '/'){
+                    estado = 4;
+                    auxlex[cntx] = c;
+                    cntx++;
+                    break;
+                }else if(isalpha(c)){
+                    estado = 4;
+                    auxlex[cntx] = c;
+                    cntx++;
+                    break;
+                }else if(isdigit(c)){
+                    estado = 4;
+                    auxlex[cntx] = c;
+                    cntx++;
+                    break;
+                }else if(c == ' '){
+                    estado = 4;
+                    auxlex[cntx] = c;
+                    cntx++;
+                    break;
+                }else if(c == '-'){
+                    strcpy(path, auxlex);
+                    vaciarArreglo(auxlex);
+					cntx = 0;
+                    estado = 0;
+                    break;
+                }else{
+                    printf("********************************************************************\n");
+                    printf("Error lexico con: %c\n", c);
+                    banderaErrores = 1;
+                    printf("********************************************************************\n");
+                }
+
+
+            case 5:
+
+                if(c == '"'){
+                    estado = 5;
+                    auxlex[cntx] = c;
+                    cntx++;
+                    break;
+                }else if(isalpha(c)){
+                    estado = 5;
+                    auxlex[cntx] = c;
+                    cntx++;
+                    break;
+                }else if(isdigit(c)){
+                    estado = 5;
+                    auxlex[cntx] = c;
+                    cntx++;
+                    break;
+                }else if(c == '.'){
+                    estado = 5;
+                    auxlex[cntx] = c;
+                    cntx++;
+                    break;
+                }else if(c == '#'){
+                    strcpy(name, auxlex);
+                    vaciarArreglo(auxlex);
+					cntx = 0;
+                    estado = 0;
+                    i--;
+                    break;
+                }else{
+                    printf("********************************************************************\n");
+                    printf("Error lexico con: %c\n", c);
+                    banderaErrores = 1;
+                    printf("********************************************************************\n");
+                }
+
 
         }
 

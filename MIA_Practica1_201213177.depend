@@ -604,7 +604,7 @@
 	"montarParticion.h"
 	"crearCarpetaArchivo.h"
 
-1470622476 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/escanearCrearDisco.c
+1471065509 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/escanearCrearDisco.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -657,7 +657,7 @@
 
 1466728548 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/formatearParticion.h
 
-1470932226 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/escanearGraficarMBR.c
+1470977179 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/escanearGraficarMBR.c
 	<stdio.h>
 	<stdlib.h>
 	<ctype.h>
@@ -668,6 +668,7 @@
 	"graficarMBR.h"
 	"vaciarArreglo.h"
 	"montarParticion.h"
+	"graficarDisco.h"
 
 1470808919 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/graficarMBR.h
 
@@ -718,7 +719,7 @@
 	<time.h>
 	"getRandom.h"
 
-1470932624 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/graficarMBR.c
+1470977416 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/graficarMBR.c
 	<stdio.h>
 	<stdlib.h>
 	<ctype.h>
@@ -727,7 +728,7 @@
 	"graficarMBR.h"
 	"limpiar.h"
 
-1466581566 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/leecad.c
+1471064848 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/leecad.c
 	<stdio.h>
 	<stdlib.h>
 	<unistd.h>
@@ -741,12 +742,13 @@
 1465428730 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/limpiar.c
 	"limpiar.h"
 
-1466578279 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/main.c
+1471064882 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/main.c
 	<stdio.h>
 	<stdlib.h>
 	<unistd.h>
 	"analizar.h"
 	"leecad.h"
+	"limpiar.h"
 
 1466733739 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/montarParticion.c
 	<stdio.h>
@@ -797,4 +799,15 @@
 	<stdio.h>
 	<stdlib.h>
 	"verificarPartLog.h"
+
+1470972061 /home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/graficarDisco.h
+
+1471057279 source:/home/marvin/CBProjects/-MIA-201213177/MIA_Fase1_201213177/graficarDisco.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	<time.h>
+	"graficarDisco.h"
+	"limpiar.h"
 

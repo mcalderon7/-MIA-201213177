@@ -3,6 +3,7 @@
 #include <unistd.h>
 #include "analizar.h"
 #include "leecad.h"
+#include "limpiar.h"
 
 #define ANSI_COLOR_CYAN    "\x1b[36m"
 #define ANSI_COLOR_RESET   "\x1b[0m"
@@ -12,6 +13,7 @@ int x = 9;
 int main(int argc, char **argv){
 
 	char entrada[200];
+	limpiar(entrada, 200);
 
 	printf("%s***BIENVENIDO AL CREADOR Y PARTICIONADOR DE DISCOS***\n\n", ANSI_COLOR_CYAN);
 
@@ -19,7 +21,7 @@ int main(int argc, char **argv){
 	{
         printf("%sIngresa tu sentencia:\n%s", ANSI_COLOR_CYAN, ANSI_COLOR_RESET);
         leecad(entrada, 200);
-		printf("--------------------------------------------------------------------\n");
+        printf("--------------------------------------------------------------------\n");
     }
 
 	return 0;

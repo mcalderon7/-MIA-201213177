@@ -6,8 +6,12 @@
 #include "analizar.h"
 #include "limpiar.h"
 
+char cadena[100];
+char nuevaCadena[100];
+
 int leecad(char *cad, int n) {
-    int i, c;
+
+   int i, c;
 
     c=getchar();
     if (c == EOF) {

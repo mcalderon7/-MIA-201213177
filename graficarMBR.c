@@ -439,7 +439,7 @@ void graficarMBR(char *path, char *pathImagen){
 
             }
 
-            fprintf(fdot,"}\n");
+            /*fprintf(fdot,"}\n");
             fprintf(fdot,"\n");
             //fflush(fdot);
             fclose(fdot);
@@ -448,7 +448,7 @@ void graficarMBR(char *path, char *pathImagen){
             strcat(commandd,pathJPG);
             strcat(commandd," -Tjpg");
             printf(commandd);
-            system(commandd);
+            system(commandd);*/
 
 
         }else if(particion == 2){
@@ -575,7 +575,7 @@ void graficarMBR(char *path, char *pathImagen){
 
             }
 
-            fprintf(fdot,"}\n");
+            /*fprintf(fdot,"}\n");
             fprintf(fdot,"\n");
             //fflush(fdot);
             fclose(fdot);
@@ -584,7 +584,7 @@ void graficarMBR(char *path, char *pathImagen){
             strcat(commandd,pathJPG);
             strcat(commandd," -Tjpg");
             printf(commandd);
-            system(commandd);
+            system(commandd);*/
 
         }else if(particion == 3){
 
@@ -710,7 +710,7 @@ void graficarMBR(char *path, char *pathImagen){
 
             }
 
-            fprintf(fdot,"}\n");
+            /*fprintf(fdot,"}\n");
             fprintf(fdot,"\n");
             //fflush(fdot);
             fclose(fdot);
@@ -719,7 +719,7 @@ void graficarMBR(char *path, char *pathImagen){
             strcat(commandd,pathJPG);
             strcat(commandd," -Tjpg");
             printf(commandd);
-            system(commandd);
+            system(commandd);*/
 
         }else if(particion == 4){
 
@@ -845,7 +845,7 @@ void graficarMBR(char *path, char *pathImagen){
 
             }
 
-            fprintf(fdot,"}\n");
+            /*fprintf(fdot,"}\n");
             fprintf(fdot,"\n");
             //fflush(fdot);
             fclose(fdot);
@@ -854,9 +854,20 @@ void graficarMBR(char *path, char *pathImagen){
             strcat(commandd,pathJPG);
             strcat(commandd," -Tjpg");
             printf(commandd);
-            system(commandd);
+            system(commandd);*/
 
         }
+
+        fprintf(fdot,"}\n");
+        fprintf(fdot,"\n");
+        //fflush(fdot);
+        fclose(fdot);
+        fclose(fmbr);
+        char commandd [200] ="dot /home/marvin/Escritorio/grafmbr.dot -o ";
+        strcat(commandd,pathJPG);
+        strcat(commandd," -Tjpg");
+        //printf(commandd);
+        system(commandd);
 
     }
 

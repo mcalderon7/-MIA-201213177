@@ -8,6 +8,7 @@
 #include "graficarMBR.h"
 #include "vaciarArreglo.h"
 #include "montarParticion.h"
+#include "graficarDisco.h"
 
 int cnx = 0;
 
@@ -84,7 +85,17 @@ void escanearGraficarMBR(char * ingreso){
                                 printf("***************************************************************************\n");
                             }else{
                                 //printf("El path es el siguiente: %s", (*z)->path);
-                                graficarMBR((*z)->path, path);
+
+                                if((strcmp(name, "mbr") == 0)){
+                                    graficarMBR((*z)->path, path);
+                                }else if((strcmp(name, "disk") == 0)){
+                                    graficarDisco((*z)->path, path);
+                                }else{
+                                    printf("***************************************************\n");
+                                    printf("No se puede generar el reporte, nombre desconocido.\n");
+                                    printf("***************************************************\n");
+                                }
+
                             }
 
                         }else{
